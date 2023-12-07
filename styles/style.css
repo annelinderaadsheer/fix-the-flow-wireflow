@@ -782,3 +782,27 @@ ul.account-list {
         top: 7.5%;
     }
 }
+
+
+ /* Voeg deze stijlen toe aan je CSS-bestand */
+ .btn {
+    transition: transform 3s;
+  }
+
+  .flipped {
+    transform: rotateY(180deg);
+  }
+
+  /* --- */
+
+  .btn-extend {
+    background-color: #070808; 
+  }
+
+  .btn-extend:hover {
+    background-color: #00b300;
+  }
+
+  .btn-extend.clicked {
+    background-color: #00b300;
+  }
