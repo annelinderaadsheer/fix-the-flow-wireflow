@@ -4,20 +4,19 @@ const body = document.querySelector('body'),
     searchBtn = body.querySelector(".search-box")
     btnExtends = document.querySelectorAll('.btn-extend');
 
-    console.log('btnExtend', btnExtends)
+    // console.log('btnExtend', btnExtends)
 
+// toggle.addEventListener("click", () => {
+//     sidebar.classList.toggle("close");
+// })
 
-toggle.addEventListener("click", () => {
-    sidebar.classList.toggle("close");
-})
+// searchBtn.addEventListener("click", () => {
+//     sidebar.classList.remove("close");
+// })
 
-searchBtn.addEventListener("click", () => {
-    sidebar.classList.remove("close");
-})
-
-// 1. Get the element
-// 2. Add event listener
-// 3. execute function if event is fired
+// 1. Element zoeken
+// 2. Event listener toevoegen
+// 3. Functie uitvoeren als gebeurtenis wordt geactiveerd
 
 btnExtends.forEach((element) => {
     element.addEventListener('click', () => {
