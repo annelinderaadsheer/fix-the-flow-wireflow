@@ -6,9 +6,9 @@ const body = document.querySelector('body'),
 
     // console.log('btnExtend', btnExtends)
 
-// toggle.addEventListener("click", () => {
-//     sidebar.classList.toggle("close");
-// })
+toggle.addEventListener("click", () => {
+    sidebar.classList.toggle("close");
+})
 
 // searchBtn.addEventListener("click", () => {
 //     sidebar.classList.remove("close");
@@ -22,7 +22,7 @@ btnExtends.forEach((element) => {
     element.addEventListener('click', () => {
     // console.log('clicked element', element)
     element.innerHTML = "U heeft verlengd";
-    element.classList.add('extended')
+    element.classList.toggle('extended')
   });
 })
 
